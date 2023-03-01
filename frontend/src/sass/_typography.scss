@@ -1,3 +1,5 @@
+@use "./variables" as *;
+
 @font-face {
     font-family: iranyekan;
     font-style: normal;
@@ -97,4 +99,5 @@
 
 body {
     font-family: iranyekan !important;
+    font-size: $font-size-200;
 }

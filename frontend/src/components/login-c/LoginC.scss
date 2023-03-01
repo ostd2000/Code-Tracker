@@ -1,0 +1,25 @@
+@use "../../sass/variables" as *;
+
+.login-c {
+    background-color: $color_primary_1000;
+
+    &__title {
+        font-weight: $font-weight-bold;
+        font-size: $font-size-500;
+
+        color: $color_txt_100;
+    }
+
+    &__c1 {
+        margin-top: 5rem;
+
+        gap: 1rem;
+    }
+
+    &__c2 {
+        gap: 1rem;
+
+        color: $color_txt_200;
+        margin-top: 1rem;
+    }
+}
